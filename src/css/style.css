@@ -7,37 +7,35 @@ html {
 
 .header img {
     display: flex;
-    width: 30vh;
-    height: 10vh;
-    margin-left: 20px;
+    width: 20%;
+    margin: 20px;
 }
 
 .main {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
 }
 
 .section-primary {
     display: flex;
-    margin: 0px;
+    margin: 20px;
     padding: 20px;
+    max-width: 40%;
 }
 
-.illustration-mockups{
-    width: 80vh;
+.illustration-mockups img{
+    width: 100%;
 }
 
 .section-secundary {
     display: flex;
-    min-width: 100px;
+    max-width: 40%;
     padding: 20px;
-    font-size: 18px;
 }
 
 .section-register {
     display: block;
-    max-width: 400px;
+    width: 100%;
     font-weight: 100;
     margin-bottom: 20px;
 }
@@ -47,42 +45,50 @@ html {
 }
 
 .section-register p {
-    padding-bottom: 25px;
+    padding-bottom: 18px;
 }
 
 a.button-register {
     border-radius: 30px;
     padding: 5px 35px;
     text-align: center;
-    font-size: 17px;
-    border: 1px solid rgb(225, 221, 221);
-    height: 30px;
+    font-size: 12px;
+    border: 1px solid rgb(255, 255, 255);
     background-color: white;
+    box-shadow: 1px 1px 7px rgb(58, 56, 56);
 }
 
-footer{
+footer {
     display: flex;
+    width: 80%;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 80%;
-    margin-bottom: 25px;
 }
 
-
-
-.social-network a{
+.social-network a {
     display: flex;
     width: 30px;
     height: 30px;
-    color: aliceblue;
+    color:  white;
     justify-content: center;
     align-items: center;
     align-content: right;
     margin-left: 2vh;
 
-    border: 2px solid white;
+    border: 2px solid var(--fundo-neutro);
     border-radius: 100%;
     border-style: double;
+}
+
+.social-network a:hover{
+    background-color: var(--violet);
+    border-color: var(--pink);
+}
+
+a:hover .fa-facebook, 
+a:hover .fa-twitter, 
+a:hover .fa-instagram {
+    color: var(--pink);
 }
 
 

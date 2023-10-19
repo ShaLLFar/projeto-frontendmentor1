@@ -1,37 +1,32 @@
-@media(max-width: 1024px) {
-    html{
+@media(max-width: 768px) {
+    html {
         margin: 0 auto;
         padding: 0 auto;
     }
 
-    .header{
+    .header img {
         display: flex;
-        justify-content: center;
-    }
-
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 80vh;
+        width: 25vh;
     }
 
     .section-primary {
         display: flex;
         justify-content: center;
-        width: 100vh;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
     }
 
     .section-secundary {
         display: flex;
         justify-content: center;
-        align-items: center;
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
+        max-width: 100%;
     }
 
     .illustration-mockups {
-        max-width: 50vh;
+        max-width: 90%;
     }
 
     .section-register {
@@ -39,56 +34,14 @@
         text-align: center;
         display: flex;
         flex-wrap: wrap;
-        
+        max-width: 100%;
     }
 
     footer{
+        display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        padding: 25px;
     }
-   
-}
-
-@media(min-width: 2440px) {
-
-    .header img {
-        height: 15%;
-        width: 15%;
-        margin: 50px 30px;
-    }
-
-    main {
-      width: 100vh;
-    }
-
-    .section-primary {
-        width: 40vh;
-    }
-
-    .section-secundary {
-        font-family: 'Roboto', sem serifa;
-        display: flex;
-        font-size: 28px;
-    }
-
-    footer{
-        justify-content: flex-end;
-        align-items: center;
-        width: 60vh;
-    }
-
-    .social-network a{
-        display: flex;
-        width: 35px;
-        height: 30px;
-        color: aliceblue;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        margin-left: 2vh;
-        border: 2px solid white;
-        border-radius: 100%;
-        border-style: double;
-    }
-
 }
